@@ -26,5 +26,4 @@ def now_serving(array)
     array.shift()
   end
   puts "There is nobody waiting to be served!"
-  binding.pry
 end
