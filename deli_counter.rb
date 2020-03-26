@@ -22,6 +22,7 @@ end
 
 def now_serving(array)
   while array.length > 0
+  binding.pry
     puts "Currently serving #{array[0]}."
     array.shift()
   end
